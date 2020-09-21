@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+[職務経歴書](resume.md)
+
 <!--
 **masaya-takagi/masaya-takagi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
