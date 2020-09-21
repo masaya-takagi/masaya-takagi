@@ -2,6 +2,9 @@
 
 [職務経歴書](resume.md)
 
+[![Facebook](https://img.shields.io/badge/-Facebook-4172B8.svg?logo=facebook&style=plastic")](https://facebook.com/mtakagi27/)
+[![LinkedIn](https://img.shields.io/badge/-Linkedin-0077B5.svg?logo=linkedin&style=plastic)](https://www.linkedin.com/in/mtakagi271/)
+
 <!--
 **masaya-takagi/masaya-takagi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
