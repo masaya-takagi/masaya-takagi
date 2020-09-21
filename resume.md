@@ -1,8 +1,7 @@
 # <div style="text-align:center;">職務経歴書 </div>
 
-<div style="text-align:right;">2020年9月31日現在</div>
-
-<div style="text-align:right;"><u>氏名　高木　賢哉</u></div>
+<p align="right">2020年9月31日現在</p>
+<p align="right"><u>氏名　高木　賢哉</u></p>
 
 ### ■ 活かせる経験・知識・技術
 
