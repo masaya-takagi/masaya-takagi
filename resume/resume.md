@@ -1,7 +1,6 @@
-# <div style="text-align:center;">職務経歴書 </div>
-
-<p align="right">2020年9月31日現在</p>
-<p align="right"><u>氏名　高木　賢哉</u></p>
+% 職務経歴書
+% 氏名 高木 賢哉
+% 2020年9月31日現在
 
 ### ■ 活かせる経験・知識・技術
 
@@ -13,11 +12,9 @@
  - il2cpp を意識した C\# レベルでの Unity の最適化
   - Objective-C,Java を利用したモバイルアプリのプラグイン開発
  - C, C++ を使用した Unity ネイティブプラグインの開発
-
 - Ruby や Go 言語を使用したツールの作成
   - Git から一日の差分を生成しチケット番号と照し合せ進捗を確認するツールや
   - 2のべき乗でない画像を2のべき乗に拡張するツールなど
-
 - Git などの DVCS などの使用・運用経験
   - 一般的な使用方法に加え
   - コンフリクトなどの解決
@@ -28,17 +25,17 @@
   - Unity プロジェクトのビルド
   -  アセットバンドルビルド
      -  DeployGate へのアップロード
-     - AWS S3 などへのアップロード 
+     - AWS S3 などへのアップロード
      - その他 `.dsym` や `.so` のアップロード
      - `fastlane` を利用した証明書の更新など
 
 <!-- end list -->
 
-#### GitHub アカウント
--  個人アカウント 
-- <https://github.com/masaya-takagi>
-- 組織用アカウント
-- <https://github.com/orgs/takagi-denki/>
+## GitHub アカウント
+個人アカウント  
+<https://github.com/masaya-takagi>  
+組織用アカウント  
+<https://github.com/orgs/takagi-denki/>
 
 ### ■ 職務経歴
 

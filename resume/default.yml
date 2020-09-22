@@ -1,0 +1,7 @@
+from: markdown+hard_line_breaks+pandoc_title_block+grid_tables
+to: docx
+output-file: resume.docx
+input-files:
+- resume.md
+
+reference-doc: custom-reference.docx
