@@ -64,6 +64,8 @@
         <p>&lt;概要&gt;</p>
         <ul>
           <li><p>バトル以外のインゲームの機能開発(編成、マップ機能など)</p></li>
+          <li><p>>GitHub Actions を使用したアセットのビルド</p></li>
+          <li><p>MV(R)P での画面開発</p></li>
           <li><p>モバイル関連の Web3 SDK の調査</p></li>
         </ul>
       </td>
