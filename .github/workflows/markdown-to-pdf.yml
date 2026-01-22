@@ -3,7 +3,7 @@ name: Convert Markdown to PDF
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch: # 手動実行も可能にする
 
 jobs:
