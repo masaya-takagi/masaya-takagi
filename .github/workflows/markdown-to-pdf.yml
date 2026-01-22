@@ -27,7 +27,8 @@ jobs:
       - name: Convert Markdown to PDF
         run: |
           npm install -g md-to-pdf
-          npx md-to-pdf resume.md
+          # --launch-options で Puppeteer に --no-sandbox 引数を渡す
+          npx md-to-pdf resume.md --launch-options '{"args": ["--no-sandbox"]}'
 
       # 4. 生成された PDF をアーティファクトとしてアップロード
       # これにより、Actions の実行画面から PDF をダウンロードできます
