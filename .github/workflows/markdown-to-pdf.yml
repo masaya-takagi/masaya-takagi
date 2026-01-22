@@ -21,6 +21,11 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install Japanese Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
       # 3. md-to-pdf のインストールと PDF 変換の実行
       # ※ puppeteerの設定のために --no-sandbox 等が必要な場合がありますが、
       # md-to-pdf は通常そのままで動作します。
