@@ -1,0 +1,38 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # 手動実行も可能にする
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. コードをチェックアウト
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Node.js のセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # 3. md-to-pdf のインストールと PDF 変換の実行
+      # ※ puppeteerの設定のために --no-sandbox 等が必要な場合がありますが、
+      # md-to-pdf は通常そのままで動作します。
+      - name: Convert Markdown to PDF
+        run: |
+          npm install -g md-to-pdf
+          npx md-to-pdf resume.md
+
+      # 4. 生成された PDF をアーティファクトとしてアップロード
+      # これにより、Actions の実行画面から PDF をダウンロードできます
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: exported-pdf
+          path: resume.pdf
