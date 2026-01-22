@@ -35,10 +35,18 @@ jobs:
           # --launch-options で Puppeteer に --no-sandbox 引数を渡す
           npx md-to-pdf resume.md --launch-options '{"args": ["--no-sandbox"]}'
 
-      # 4. 生成された PDF をアーティファクトとしてアップロード
-      # これにより、Actions の実行画面から PDF をダウンロードできます
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: exported-pdf
-          path: resume.pdf
+      # Gitへのコミットとプッシュ
+      - name: Commit and Push PDF
+        run: |
+          # Gitの設定（GitHub Actions botとしてコミット）
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 変更があるか確認してコミット
+          git add resume.pdf
+          
+          # 変更がない場合はエラーにせず終了する (|| echo ...)
+          # [skip ci] を入れると、このコミットで再度Actionsが走るのを防げます
+          git commit -m "Update resume PDF [skip ci]" || echo "No changes to commit"
+          
+          git push
