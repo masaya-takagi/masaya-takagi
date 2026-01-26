@@ -35,6 +35,8 @@
 - 組織用アカウント
 - <https://github.com/orgs/takagi-denki/>
 
+<div style="page-break-before:always"></div>
+
 ### ■ 職務経歴
 
 <table>
