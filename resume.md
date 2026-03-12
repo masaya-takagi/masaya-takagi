@@ -504,13 +504,21 @@
       </td>
     </tr>
     <tr class="even">
-      <td>
-        <p>2012〜2013</p>
-      </td>
+      <td><p>期間</p></td>
+      <td><p>プロジェクト内容</p></td>
+      <td><p>担当フェーズ</p></td>
+      <td><p>環境/規模</p></td>
+      <td><p>メンバー/役割</p></td>
+    </tr>
+    <tr class="odd">
+      <td><p>2012〜2013</p></td>
       <td>
         <p>スマートフォンアプリ開発に従事</p>
         <p>ARアプリやAndroidアプリの開発を担当</p>
       </td>
+      <td><p>機能実装</p></td>
+      <td><p>Java, Eclipse, Redmine, Git</p></td>
+      <td><p>要員数 11名</p></td>
     </tr>
   </tbody>
 </table>
