@@ -1,6 +1,7 @@
 ### Hi there 👋
 
 [ポートフォリオ](https://masaya-takagi.github.io/profile/)
+
 [職務経歴書](resume.md)
 
 [![Facebook](https://img.shields.io/badge/-Facebook-4172B8.svg?logo=facebook&style=plastic")](https://facebook.com/mtakagi27/)
